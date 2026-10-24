@@ -1,0 +1,30 @@
+# ---------- Build (Maven) ----------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---------- Credenciais locais (NUNCA versionar) ----------
+application-local.properties
+.env
+
+# ---------- Eclipse ----------
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+
+# ---------- IntelliJ / VS Code ----------
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# ---------- Sistema operacional / logs ----------
+.DS_Store
+Thumbs.db
+*.log
